@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(228, 222, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    width: 550px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.container{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: 15px auto;
+    border-radius: 15px;
+    overflow: auto;
+}
+.CP, .ativo{
+    text-align: left;
+    font-size: 20px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:space-between;
+}
+.CP{
+    background-color: rgba(255, 0, 0, 0.657);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.ativo{
+    border-radius: 10px;
+    background-color: rgba(170, 255, 0, 0.685);
+    margin-bottom: 10px;
+}
+.calcular{
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    background-color: turquoise;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color, 500ms;
+}
+.calcular:hover{
+    background-color:rgb(11, 104, 211);
+}
+.erro{
+    color: red;
+    text-align: left;
+}

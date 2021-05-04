@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,15 +7,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <script src="index.js"></script>
     <section>
         <form>
+            <h2>Tabela de gasta</h2>
+            <h1>Seu saldo é de R$:0</h1>
             <div class="container">
-                <h1>Tabela de gasta</h1>
                 <div class="totalDisponivel"></div>
-                <div class="gastos"></div>
+                <div class="gastos">
+                    <div class="CP">
+                        <div class="compra"> Celular -</div>
+                        <div class="valor">R$:1200.00</div>
+                    </div>
+                    <div class="ativo">
+                    <div class="recebimento"> Pagamento </div>
+                    <div class="valor2">R$:3000.00</div>
+                    </div>
+                </div>
             </div>
+
+            <div class="operacoes">
+                <label for="nome">nome</label>
+                <input type="text" id="nome" class="nome">
+
+
+                <label for="valor">valor</label>
+                <input type="text" class="valor" id="valor" >
+                <button class="calcular">Calcular</button>
+            </div>
+            <div class="erro"></div>
         </form>
     </section>
 </body>
