@@ -56,4 +56,10 @@ section{
 .erro{
     color: red;
     text-align: left;
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 13px;
+}
+.add{
+    color: rgb(3, 207, 3);
 }

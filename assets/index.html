@@ -12,19 +12,12 @@
     <script src="index.js"></script>
     <section>
         <form>
-            <h2>Tabela de gasta</h2>
-            <h1>Seu saldo é de R$:0</h1>
+            <h2>Tabela de gastos</h2>
+            <h1 class="saldo">Você Gastou</h1>
             <div class="container">
                 <div class="totalDisponivel"></div>
                 <div class="gastos">
-                    <div class="CP">
-                        <div class="compra"> Celular -</div>
-                        <div class="valor">R$:1200.00</div>
-                    </div>
-                    <div class="ativo">
-                    <div class="recebimento"> Pagamento </div>
-                    <div class="valor2">R$:3000.00</div>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -34,10 +27,15 @@
 
 
                 <label for="valor">valor</label>
-                <input type="text" class="valor" id="valor" >
+                <input type="number"  id="valor" >
+
                 <button class="calcular">Calcular</button>
             </div>
-            <div class="erro"></div>
+            <div class="erro">
+                <div class="erroNome"></div>
+                <div class="erroValor"></div>
+            </div>
+            <div class="add"></div>
         </form>
     </section>
 </body>
